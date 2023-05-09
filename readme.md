@@ -2,6 +2,10 @@
 - This is to help embed some more basic understanding of principles basic Javascript in a variety of small projects. 
 - Will also hopefully inspire ideas for more projects I can expand these skills into.
 
+01. JS Drum Machine - This project uses data attributes & Javascript key codes to call the key class for each specific letter and the audio element is triggered by the event listener when a key is pressed. 
+Javascript key codes can be found here:
+https://www.toptal.com/developers/keycode
+
 ![](https://javascript30.com/images/JS3-social-share.png)
 
 # JavaScript30
