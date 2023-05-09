@@ -1,4 +1,8 @@
-﻿![](https://javascript30.com/images/JS3-social-share.png)
+﻿Odin Project recommended course employing 'vanilla' Javascript to build 30 projects in 30 days - 1 a day.
+- This is to help embed some more basic understanding of principles basic Javascript in a variety of small projects. 
+- Will also hopefully inspire ideas for more projects I can expand these skills into.
+
+![](https://javascript30.com/images/JS3-social-share.png)
 
 # JavaScript30
 
