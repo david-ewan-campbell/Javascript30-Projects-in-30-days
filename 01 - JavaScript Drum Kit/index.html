@@ -63,6 +63,7 @@
   const audio = document.querySelector(`audio[data-key="${event.keyCode}"]`);
   console.log(audio);
   if(!audio) return; // should stop the function from running - but still returns null when non-specified keys are pressed
+  audio.play();
   });
 </script>
 
