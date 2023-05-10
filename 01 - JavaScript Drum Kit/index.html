@@ -78,7 +78,8 @@
 
 function removeTransition(event) {
   if(event.propertyName !== 'transform') return; // Skips all the transitions except the specific propertyName transform
-  console.log(event.propertyName);
+  this.classList.remove('playing');
+  console.log(this); // This is equal to the key/always equal to whatever got called against it
 }
 const keys = document.querySelectorAll('.key');
 
