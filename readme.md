@@ -6,7 +6,7 @@
 Javascript key codes can be found here:
 https://www.toptal.com/developers/keycode
 
-![](https://javascript30.com/images/JS3-social-share.png)
+<!-- ![](https://javascript30.com/images/JS3-social-share.png) -->
 
 # JavaScript30
 
