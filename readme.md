@@ -2,9 +2,21 @@
 - This is to help embed some more basic understanding of principles basic Javascript in a variety of small projects. 
 - Will also hopefully inspire ideas for more projects I can expand these skills into.
 
-01. JS Drum Machine - This project uses data attributes & Javascript key codes to call the key class for each specific letter and the audio element is triggered by the event listener when a key is pressed. 
+01. JS Drum Machine - This project uses data attributes & Javascript key codes to call the key class for each specific letter and the audio element is triggered by the event listener when a key is pressed.
+
 Javascript key codes can be found here:
 https://www.toptal.com/developers/keycode
+
+02. JS & CSS Clock - Learnt some very interesting CSS methods which can use the date constructor & link it to transitions, such as rotating CSS elements & by taking the changing values of seconds updating and passing those values & essentially 'animating' those elements.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
+
+03. Discovered some fascinating CSS methods where you can define custom properties/ :root elements and pass/constantly update those values and see those changes happening live in the browser.
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+
+04. Array 'Cardio' Day 1 - Array methods update - 
+
 
 <!-- ![](https://javascript30.com/images/JS3-social-share.png) -->
 

@@ -60,12 +60,13 @@
     const inputs = document.querySelectorAll('.controls input');
 
     function handleUpdate() {
-      const suffix = this.dataset.sizing || ''; // suffix variable relates to the 'px' value appended to the data-sizing element name
-      document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix); // adding the suffix means that the actual pixel size will change in the console
+      const suffix = this.dataset.sizing || ''; 
+      document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
       console.log(this.name);
     }
 
-    inputs.forEach(input => input.addEventListener('change', handleUpdate))
+    inputs.forEach(input => input.addEventListener('change', handleUpdate));
+    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
 
   </script>
 
