@@ -60,7 +60,10 @@
     const inputs = document.querySelectorAll('.controls input');
 
     function handleUpdate() {
-      console.log(this.value);
+      const suffix = this.dataset.sizing || ''; 
+      // sizing is the dataset value we're looking for: it's the suffix to data in the input html
+      // it returns only the value/data type of sizing which is 'px'/everything else in the browser returns nothing ''.
+      console.log(suffix);
     }
 
     inputs.forEach(input => input.addEventListener('change', handleUpdate))
