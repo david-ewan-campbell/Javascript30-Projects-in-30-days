@@ -19,6 +19,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 
 - Can pass a querySelector/querySelectorAll on any DOM/class element in the console then 'wrap' the results in an array that can be mapped then filter those results.
 
+- In the final exercise using reduce to calculate the number of instances of an item/object in an array list, a very useful method that sets an empty object to iterate into & sets an initial object value of 0, which then as the reduce method iterates over each item in the array it can calculate the instances of each data type. 
 
 <!-- ![](https://javascript30.com/images/JS3-social-share.png) -->
 

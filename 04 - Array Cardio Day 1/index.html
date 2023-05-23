@@ -97,9 +97,16 @@
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
     
     const transportType = data.reduce(function(object, item) {
-      console.log(item);
+      if(!object[item]) {
+        object[item] = 0;
+      }
+        object[item]++;
       return object;
     }, {})
+      console.log(transportType);
+
+    // This sets an empty object & an initial object to 0 
+    // then iterates through each item using reduce to calculate how many instances of each item
 
     </script>
 </body>
