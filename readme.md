@@ -15,7 +15,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 
-04. Array 'Cardio' Day 1 - Array methods update - Immediately learned a new console method to see a 'table' of results using filter on an array... console.table(); Very useful set of exercises to revise how to iterate through arrays using different methods & creating functions which look for different results from the same set of data.
+04. Array 'Cardio' Day 1 - Array methods revision - Immediately learned a new console method to see a 'table' of results using filter on an array... console.table(); Very useful set of exercises to revise how to iterate through arrays using different methods & creating functions which look for different results from the same set of data.
 
 - Can pass a querySelector/querySelectorAll on any DOM/class element in the console then 'wrap' the results in an array that can be mapped then filter those results.
 
