@@ -56,7 +56,7 @@
         return total + (inventor.passed - inventor.year)
       }, 0);
 
-      console.log(totalYears);
+      // console.log(totalYears);
 
     // 5. Sort the inventors by years lived
 
@@ -84,12 +84,12 @@
     // Sort the people alphabetically by last name
 
     const alphabetSort = people.sort(function(name, nextName) {
-      console.log(name);
+      const divideName = name.split(', ');
+      console.log(divideName);
     });
 
-    // This iterates through the people array
-    // console logging each pair of first & last names with the first name last
-    // exactly as it is in the array but we want to split them and organise by last name
+    // This divides each name in the array at the comma/space
+    // logs it as separate arrays for each first & last name pairs
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
