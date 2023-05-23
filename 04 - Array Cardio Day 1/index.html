@@ -84,12 +84,12 @@
     // Sort the people alphabetically by last name
 
     const alphabetSort = people.sort(function(name, nextName) {
-      const divideName = name.split(', ');
-      console.log(divideName);
+      const [aLast, aFirst] = name.split(', ');
+      const [bLast, bFirst] = nextName.split(', ');
+      return aLast > bLast ? 1 : -1;
     });
-
-    // This divides each name in the array at the comma/space
-    // logs it as separate arrays for each first & last name pairs
+    console.log(alphabetSort);
+    // This sorts each last name into alphabetical order using a ternary operator
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
