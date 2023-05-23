@@ -88,13 +88,19 @@
       const [bLast, bFirst] = nextName.split(', ');
       return aLast > bLast ? 1 : -1;
     });
-    console.log(alphabetSort);
+    // console.log(alphabetSort);
     // This sorts each last name into alphabetical order using a ternary operator
+    // This method uses the original strings from the array but just orders them
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+    
+    const transportType = data.reduce(function(object, item) {
+      console.log(item);
+      return object;
+    }, {})
 
-  </script>
+    </script>
 </body>
 </html>
